@@ -1,0 +1,41 @@
+.button {
+    font-size: 16px;
+    padding: 8px 16px;
+    border-radius: 4px;
+    background-color: gray;
+    color: white;
+  }
+  .button:hover {
+    background-color: white;
+    color : gray;
+  }
+ .button--primary{
+    background-color: aqua;
+    color: gray;
+  }
+  .button--primary:hover{
+    background-color: blue;
+    color: white;
+  }
+  .button--dashed{
+    border: 3px dashed blue;
+  }
+  .button--text{
+    border: none;
+    background: none;
+    color: black;
+
+  }
+  .button--text:hover{
+    color:red
+
+  }
+  .button--link{
+    border: none;
+    background: none;
+    color: blue;
+  }
+  .button--link:hover{
+    color:red
+
+  }
