@@ -1,11 +1,12 @@
 import logo from './logo.svg';
 import './App.css';
-import {Button} from './'
+import { Button } from 'ock-button';
+
 
 function App() {
   return (
     <div>
-    <Button primary>Selams</Button>
+    <Button  primary></Button>
   </div>
   );
 }
